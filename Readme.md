@@ -1,1 +1,2 @@
-to use rivenSDK.Audio you need the fmod.dll -> [go the fmod website and download it](https://www.fmod.com/)
+to use rivenSDK.Audio you need fmod.dll -> [go the fmod website and download it](https://www.fmod.com/)
+
