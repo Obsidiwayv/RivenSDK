@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="RivenSDK/RivenSDK.csproj" />
+  <Project Path="FMOD/FMOD.csproj" Id="f77a07bf-ea66-4f63-8439-52b0ce666884" />
+  <Project Path="RivenSDK.Audio/RivenSDK.Audio.csproj" Id="25596c23-8a42-477f-8e77-823372f5db28" />
+  <Project Path="RivenSDK.Core/RivenSDK.Core.csproj" />
 </Solution>
