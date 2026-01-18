@@ -9,17 +9,19 @@ namespace RivenSDK.Audio
     {
         private MediaPlayer media = new();
 
-        public void LoadSound(string name, string path)
+        public void LoadSound(string _, string path)
         {
-            sounds[name] = new Uri(path, UriKind.Relative);
+            media.Open(new Uri(path, UriKind.Relative));
         }
 
         public void PlaySound(string source)
         {
-            if (sounds.TryGetValue(source, out var path)) 
-            {
-                media.Play();
-            }
+            media.Play();
+        }
+
+        public void Quit()
+        {
+            return;
         }
 
         public void Stop()

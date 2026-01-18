@@ -9,6 +9,7 @@ namespace RivenSDK.Audio
         // Needed for FMOD but nothing else really, just pass false or null to this
         public void UpdateSystem();
         public void Stop();
+        public void Quit();
     }
 
     public class RivenAudio<T>

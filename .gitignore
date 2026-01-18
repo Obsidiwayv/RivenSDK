@@ -361,3 +361,7 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# Fmod API Runtime Files - They would DMCA strike if this was in the github repository
+fmod.dll
+fmodL.dll

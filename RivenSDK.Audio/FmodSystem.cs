@@ -39,7 +39,7 @@ namespace RivenSDK.Audio
 
         public void UpdateSystem() => _core.update();
 
-        ~RivenFmodSystem()
+        public void Quit()
         {
             foreach (var sound in sounds.Values)
             {
@@ -48,6 +48,11 @@ namespace RivenSDK.Audio
 
             _core.close();
             _core.release();
+        }
+
+        ~RivenFmodSystem()
+        {
+            Quit();
         }
     }
 }

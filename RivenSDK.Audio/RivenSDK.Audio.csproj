@@ -8,7 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\FMOD\FMOD.csproj" />
+    <ProjectReference Include="..\FMOD\RivenSDK.FMOD.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="fmod.dll">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>
